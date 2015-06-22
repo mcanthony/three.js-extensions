@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+}
+
+header h1,
+header h2 {
+    font-weight: 100;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FFF;
+    /*text-transform: uppercase;*/
+    margin: 20px;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
